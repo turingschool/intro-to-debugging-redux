@@ -56,16 +56,21 @@ body {
   border: none;
 }
 
-.new-task {
+.new-todo {
   display: flex;
 }
 
-.new-task__textarea {
+.new-todo {
   flex: 25;
 }
 
-.new-task__add {
+.new-todo {
   flex: 1;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
 }
 
 
