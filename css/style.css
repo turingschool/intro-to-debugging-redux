@@ -60,7 +60,7 @@ body {
   display: flex;
 }
 
-.new-todo {
+.new-todo__textarea {
   flex: 25;
 }
 
