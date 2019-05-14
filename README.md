@@ -73,11 +73,11 @@ In this repo, there are bugs on the following branches:
   * Should give an idea of places to insert debugger statements as well as how to effectively leverage them
 
 ### Your turn
-1. `bug2`
-2. `bug3` Additional bug free behavior: The 'Add em up!' button should be disabled if either input is empty
-3. `bug4` 
-2. `bug5` Additional bug free behavior: Both inputs should be cleared on submit
-3. `bug6` Additional bug free behavior: Two floats can be added together correctly
+1. `part-1` App should add a new todo when "+" button is pressed. 
+2. `part-2` The "+" button should be disabled when the "New Todo" input is empty.
+3. `part-3` Todos should be checkable (strike through when clicked).
+4. `part-4` Todos should be deletable.
+5. `part-5` Todos should only be deletable when they've ben checked off.
 
 ### Dig Deeper
 
