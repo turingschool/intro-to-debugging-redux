@@ -12,7 +12,9 @@ function addTodo(event) {
   newTodo.innerHTML = `<span class="todo__state">
         <input class="todo__state__input todo__input" type="checkbox">
         ${todoText}
-      </span>`
+      </span>
+      <button class="todo__state__button todo__button todo__button--active todo__button--inactive">X</button>
+      `
   todoList.appendChild(newTodo);
 }
 
