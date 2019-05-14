@@ -1,11 +1,11 @@
 @import 'reset.css';
 
 :root {
-   --black: #000000;
-    --gold: #d77d00;
-   --green: #4a5f00;
-  --yellow: #fdb537;
-   --white: #ffffff;
+  --black: #131515;
+  --grey: #2b2c28;
+  --darkgreen: #339989;
+  --mint: #7de2d1;
+  --white: #fffafb;
 }
 
 *,
@@ -15,18 +15,47 @@
 }
 
 /* typography */
+.header__heading {
+  font-family: 'Heebo', sans-serif;
+}
+
+/* body */
+
+body {
+  background-color: #FFFAFB;
+}
 
 /* headings */
 
-/* container */
+.header {
+  background-color: #7DE2D1;
+}
 
-/* form styles */
+.header__heading {
+  color: #2B2C28;
+  padding: 3% 1%;
+}
 
-/* inputs */
+/* main */
+
+.main {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 80%;
+  background: var(--darkgreen);
+  justify-content: center;
+}
+
+.main > * {
+  margin: 1% 1%;
+}
+
+.main__textarea {
+  border: none;
+}
 
 
-/* button */
-
-/* end form styles */
 
 
