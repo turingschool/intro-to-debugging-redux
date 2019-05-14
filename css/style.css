@@ -56,6 +56,18 @@ body {
   border: none;
 }
 
+.new-task {
+  display: flex;
+}
+
+.new-task__textarea {
+  flex: 25;
+}
+
+.new-task__add {
+  flex: 1;
+}
+
 
 
 
