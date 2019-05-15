@@ -20,7 +20,7 @@ function addTodo(event) {
 }
 
 function toggleDisabled(event) {
-  if(this.value) {
+  if(! this.value) {
     addTodoBtn.disabled = false;
   } else {
     addTodoBtn.disabled = true;
