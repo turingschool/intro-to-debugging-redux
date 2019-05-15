@@ -3,6 +3,7 @@ var addTodoBtn = document.querySelector('#new-todo-add');
 var todoList = document.querySelector('#todo-list');
 
 addTodoBtn.addEventListener('click', addTodo);
+newTodoTextArea.addEventListener('input', toggleDisabled)
 
 
 function addTodo(event) {
@@ -18,3 +19,10 @@ function addTodo(event) {
   todoList.appendChild(newTodo);
 }
 
+function toggleDisabled(event) {
+  if(! this.value) {
+    addTodoBtn.disabled = false;
+  } else {
+    addTodoBtn.disabled = true;
+  }
+}
