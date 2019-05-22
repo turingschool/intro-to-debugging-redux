@@ -10,8 +10,8 @@ function addTodo(event) {
   var todoText = newTodoTextArea.value;
   var newTodo = document.createElement('li');
   newTodo.classList.add('list__list-item', 'todo');
-  newTodo.innerHTML = `<span class="todo__state">
-        <input class="todo__state__input todo__input" type="checkbox">
+  newTodo.innerHTML = `
+      <span class="todo__state">
         ${todoText}
       </span>
       <button class="todo__state__button todo__button todo__button--active todo__button--inactive">X</button>
